@@ -22,6 +22,16 @@
 		A82BCDF82CB9A27B00021ADD /* Earthquakes.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = Earthquakes.xctestplan; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		A8D5E7442CBA90C700C8CB29 /* Exceptions for "Preview Content" folder in "EarthquakesTests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				TestData.swift,
+			);
+			target = A82BCD382CB9966F00021ADD /* EarthquakesTests */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		A82BCD3A2CB9966F00021ADD /* EarthquakesTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
@@ -31,6 +41,19 @@
 		A82BCDE52CB997C800021ADD /* Earthquakes */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = Earthquakes;
+			sourceTree = "<group>";
+		};
+		A8D5E7402CBA90C700C8CB29 /* Preview Content */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				A8D5E7442CBA90C700C8CB29 /* Exceptions for "Preview Content" folder in "EarthquakesTests" target */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A8D5E7472CBA911800C8CB29 /* Resources */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -57,6 +80,8 @@
 			isa = PBXGroup;
 			children = (
 				A82BCDF82CB9A27B00021ADD /* Earthquakes.xctestplan */,
+				A8D5E7472CBA911800C8CB29 /* Resources */,
+				A8D5E7402CBA90C700C8CB29 /* Preview Content */,
 				A82BCDE52CB997C800021ADD /* Earthquakes */,
 				A82BCD3A2CB9966F00021ADD /* EarthquakesTests */,
 				A821F9B62CB97FB400436B1D /* Products */,
@@ -89,6 +114,8 @@
 			);
 			fileSystemSynchronizedGroups = (
 				A82BCDE52CB997C800021ADD /* Earthquakes */,
+				A8D5E7402CBA90C700C8CB29 /* Preview Content */,
+				A8D5E7472CBA911800C8CB29 /* Resources */,
 			);
 			name = Earthquakes;
 			packageProductDependencies = (
@@ -328,7 +355,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Earthquakes/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Preview Content\"";
 				DEVELOPMENT_TEAM = 4HUQG76MS8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -357,7 +384,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Earthquakes/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Preview Content\"";
 				DEVELOPMENT_TEAM = 4HUQG76MS8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
