@@ -9,7 +9,7 @@ import Foundation
 
 actor QuakeClient {
     private let quakeCache: NSCache<NSString, CacheEntryObject> = NSCache()
-    
+
     var quakes: [Quake] {
         get async throws {
             let data = try await downloader.httpData(from: feedURL)
@@ -49,7 +49,7 @@ actor QuakeClient {
     init(downloader: any HTTPDataDownloader = URLSession.shared) {
         self.downloader = downloader
     }
-    
+
     func quakeLocation(from url: URL) async throws -> QuakeLocation {
         if let cached = quakeCache[url] {
             switch cached {
